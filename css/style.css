@@ -1,31 +1,32 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(207, 182, 182, 0), rgba(105, 92, 92, 0.75), rgba(158, 144, 144, 0));
-
-}
+hr{
+    height: 15px;
+    margin: 20px 0 20px 0;
+    background: repeating-linear-gradient(
+        45deg,
+        #fff,
+        #fff 2px,
+        #ddd 2px,
+        #ddd 4px
+      );
+      border: 0px;
+    }
 
 * {
-
     color: black;
     font-family: 'Oswald', sans-serif;
     max-width: 1000px;
     margin: auto;
-    padding: -20px;
-    line-height: 30px;
-
-
+    line-height: 26px;
 }
+
 .heroImg {
     width: 1000px;
     padding-top: 30px;
+    height: 650px;
 }
 
 .p1 {
@@ -34,24 +35,48 @@ hr {
     padding-top: 60px;
     padding-bottom: 7px;
     font-size: 50px;
-    
-
 }
 
 .underP1 {
     padding-top: 0;
     font-style: monospace;
+    font-size: 17px;
+    color: #525653;
+    word-spacing: 2px;
+    padding-top: 5px;
+    letter-spacing: 1px;
 }
 
-main p {
-   color: #7d8076;
-   font-size: 25px;
+.pp  {
+   color:#525653;
+   font-size: 21px;
    text-indent: 30px;
     padding: 20px 0 20px 0;
     font-family:'Times New Roman', Times, serif;
-    line-height: 40px;
+    line-height: 25px;
     word-spacing: 2px;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+main p {
+   color:rgb(58, 29, 29);
+   font-size: 12px;
+   text-indent: 30px;
+    padding: 50px 0 20px 0;
+    margin-top: 7px;
+    font-family: 'Pangolin', cursive;
+    word-spacing: 2px;
+}
+
+.X{
+    color:rgb(58, 29, 29);
+    font-size: 12px;
+    text-indent: 30px;
+     padding: 50px 0 20px 0;
+     margin-top: 7px;
+     font-family: 'Pangolin', cursive;
+     word-spacing: 2px;
+     font-size:21px;
 }
 
 .logo {
@@ -59,13 +84,10 @@ main p {
     padding-left: 0;
 }
 
-main ul {
-    color: #726c60;
-}
-
 h2 {
     font-family: 'Yellowtail', cursive;
-    font-size: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
     color: #231f30;
     padding-top: 30px;
 }
@@ -75,20 +97,33 @@ h3 {
 }
 
 .p2 {
-    color:#525653 ;
-}
+    color:#525653;
+    font-size: 21px;
+    text-indent: 30px;
+     padding: 10px 0 20px 0;
+     font-family:'Times New Roman', Times, serif;
+     line-height: 5px;
+     word-spacing: 2px;}
 
 .navigation{
     float: left;
-
-
 }
+
 .navigation .img1{
     float: left;
 }
 
 .img2 {
+    height: 5%;
     float: right;
+}
+
+img {
+    width: 25px;
+}
+
+.dot{
+    width: 5px;
 }
 
 .underNav {
@@ -113,86 +148,62 @@ h3 {
 }
 
 .underDelec {
-    font-size: 15px;
-    word-spacing: 1px;
-  
-
+    font-size: 12px;
+    word-spacing: 4px;
+    color: #525653;
+    padding-left: 75px;
+    padding-top: 3px;
 }
 
 .steps {
-
     position: relative;
     text-align: center;
 }
 
-
 .background {
-    opacity: 0.2;
+    opacity: 0.5;
     width: 1000px;
     height: 400px;
-
 }
 
 .steps {
     background:  url(https://github.com/waleedafifi90/amman-201d17/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true);
     background-size: 1000px 400px;
-
     height: 400px;
     padding-top: 30px;
-    
+    opacity: 80%;
 }
 
 .ul1 {
     text-align: left;
     float: left;
-    padding: 5px 0 5px 0;
-
-    
-
+    padding: 5px 0 5px 50px;
 }
 
 .ul2 {
     text-align: left;
     float: right;
     padding: 5px 0 5px 0;
-
-
-}
-
-.x1 {
-    text-decoration: line-through;
-
-}
-
-.hr2 {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(207, 182, 182, 0), rgba(105, 92, 92, 0.75), rgba(158, 144, 144, 0));
-    margin-top: 60px ;
-    margin-bottom: 50px;
-
+    width: 500px;
 }
 
 .girl {
-
     width:100px;
     height:100px;
     float: left;
     margin-bottom: 20px;
-
 }
-
-
 
 .button {
     float: right;
     background-color: #bc7058;
     color: white;
-    padding: 20px 40px 20px 40px;
+    padding: 18px 45px 18px 45px;
     font-size: 20px;
     margin-bottom: 30px;
     margin-left: 20px;
     border-style: none;
+    margin-top: 20px;
 }
 
 footer {
@@ -203,20 +214,36 @@ footer {
     color: #525653;
     font-size: 15px;
 }
+
 main {
     clear: both;
 }
 
-.p2 {
-    margin-left: -10px;
-    padding-top: 0;
-}
-
-
 .p1p2 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-font-size: 30px;
-color: #231f30;
+    color:#525653;
+    font-size: 30px;
+    text-indent: 30px;
+     padding: 10px 0 10px 0;
+     font-family:'Times New Roman', Times, serif;
+     word-spacing: 2px;
+     font-weight: bold;
+} 
 
-}
+.separador {
+    display: table;
+    width: 100%;
+  }
+  .s-left,
+  .s-right {
+    display: table-cell;
+    width: 50%;
+  }
+  .line{
+    border-bottom:1px solid #ddd;
+    margin-bottom:20px;
+  }
+  .separador img {
+    margin: auto;
+    display: block;
+  }
+  
